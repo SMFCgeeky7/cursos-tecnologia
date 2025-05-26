@@ -1,10 +1,13 @@
 {
+    "name": "laravel-render-fix",
     "private": true,
     "type": "module",
     "scripts": {
         "build": "vite build",
-        "dev": "vite"
+        "dev": "vite",
+        "start": "php artisan serve --host=0.0.0.0 --port=$PORT"
     },
+    "dependencies": {},
     "devDependencies": {
         "@tailwindcss/vite": "^4.0.0",
         "axios": "^1.8.2",
